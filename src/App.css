@@ -27,6 +27,20 @@
 .App-link {
   color: #61dafb;
 }
+.controlers {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding-bottom: 1rem;
+}
+.settings {
+  margin: 0 auto;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
 
 @keyframes App-logo-spin {
   from {
