@@ -1,5 +1,5 @@
 function speak(text) {
-  const message = new SpeechSynthesisUtterance()
+  const message = new webkitSpeechRecognition()
   message.lang = 'ru-RU'
   // голос женский
   message.voice = getVoice('Milena')

@@ -29,7 +29,8 @@ function App() {
   }
 
   function speak(text) {
-    const message = new SpeechSynthesisUtterance()
+    const SynthesisUtterance = window.webkitSpeechSynthesisUtterance || window.SpeechSynthesisUtterance
+    const message = new SynthesisUtterance()
     message.lang = 'ru-RU'
     // голос женский
     message.voice = getVoice('Yuri')
